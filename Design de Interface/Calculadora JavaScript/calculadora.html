@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link href="calc.css" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <div class="base">
+        <input type="text" id="visor"/>
+        <br><br>
+        <input type="submit" class="botao" value="7" onclick="add(value)"/>
+        <input type="submit" class="botao" value="8" onclick="add(value)"/>
+        <input type="submit" class="botao" value="9" onclick="add(value)"/>
+        <input type="submit" class="botao" value="/"onclick="add(value);"/>
+        <br><br>
+        <input type="submit" class="botao" value="4" onclick="add(value)"/>
+        <input type="submit" class="botao" value="5" onclick="add(value)"/>
+        <input type="submit" class="botao" value="6" onclick="add(value)"/>
+        <input type="submit" class="botao" value="*" onclick="add(value);"/>    
+        <br><br>
+        <input type="submit" class="botao" value="1" onclick="add(value)"/>
+        <input type="submit" class="botao" value="2" onclick="add(value)"/>
+        <input type="submit" class="botao" value="3" onclick="add(value)"/>
+        <input type="submit" class="botao" value="-" onclick="add(value);"/>
+        <br><br>
+        <input type="submit" class="botao" value="C" onclick="limpar()"/>
+        <input type="submit" class="botao" value="0" onclick="add(value)"/>
+        <input type="submit" class="botao" value="+" onclick="add(value)"/>
+        <input type="submit" class="botao" value="="/ onclick="calcular()">
+    </div>
+    <script src="calc.js"></script>
+
+</body>
+</html>

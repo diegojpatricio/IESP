@@ -1,0 +1,24 @@
+.botao{
+    width: 20%;
+    height: 50px;
+    background: rgb(216, 216, 216);
+    color: #333;
+    font-weight: bold;
+    
+}
+.base{
+    width: 30%;
+    background: rgb(95, 162, 224);
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+}
+body{
+    text-align: center;
+    position: absolute;
+    width:100%;
+}
+#visor{
+    width: 80%;
+    height: 30px;
+}
