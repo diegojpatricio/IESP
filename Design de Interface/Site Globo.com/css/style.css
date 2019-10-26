@@ -1,0 +1,203 @@
+@font-face{
+  font-family: 'OpenSansBold';
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face{
+  font-family: 'ProximaNova';
+  src: url("../fonts/ProximaNova-Regular.ttf");
+}
+
+body{
+  background: #fff;
+  margin: 0;
+}
+.topo{
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid hsla(0,0%,51%,.2);
+  border-top: 1px solid hsla(0,0%,51%,.2);
+  /*padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  position: relative;
+  */
+
+}
+.topoint{
+  background-color: #fff;
+  width: 100%;
+  max-width: 1240px;
+  height: 100px;
+  margin: auto;
+
+}
+.logo img{
+  
+  height: 55px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.menu{
+  width: 500px;
+  height: 30px;
+  float: left; 
+  margin-top: 40px; 
+}
+.menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+.menu li{
+  font-family: 'OpenSansBold';
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  font-size: 14pt;
+  letter-spacing: -1px;
+}
+
+.menu li:hover .submenu{
+  display: block;
+  margin-top:10px;
+
+}
+.menu a{
+  text-decoration: none;
+}
+.menu .g1{
+  color: #a80000;
+}
+
+.menu .ge{
+  color: #61c410;
+}
+
+.menu .gshow{
+  color: #f59c3a;
+}
+
+.menu .tech{
+  color: #808080;
+}
+
+.menu .videos{
+  color: #1d82fa;
+}
+.submenu{
+  width: 500px;
+  height: 200px;
+  background-color: #888;
+  position: absolute; /*para sobrepor o menu*/
+  display: none /*para nao aparecer na tela*/
+}
+
+.menu2{
+  float: left;
+  height: 30px;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px; 
+  
+}
+.menu2 ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+.menu2 li{
+  font-family: 'ProximaNova';
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  padding-right: 10px; 
+  font-size: 10pt; 
+}
+.menu2 a{
+  text-decoration: none;
+}
+.menuDireita{
+  color: #666;
+  text-transform: uppercase;
+}
+.submenu2{
+  width: 200px;
+  height: 100px;
+  background-color: #888;
+  position: absolute; /*para sobrepor o menu*/
+  display: none /*para nao aparecer na tela*/
+}
+.menu2 li:hover .submenu2{
+  display: block;
+  margin-top:10px;
+
+}
+
+.divBusca{
+  background-color:transparent;
+  border:solid 1px #bdbdbd;
+  border-radius:5px;
+  margin-top: 30px;
+  margin-left: 30px;
+  float:left;
+  height:40px;
+  width:270px;
+
+}
+.lupa{
+  float:left;
+  margin-left:20px;
+  margin-top: 10px;
+}
+
+.lupa img{
+  width: 18px;
+  height: 18px;
+}
+#txtBusca {
+  float: right;
+  margin-left: 10px;
+  border:none;
+  
+}
+
+.lupa input[type=text]{
+  outline:none
+}
+.entrada{
+
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+
+}
+.entrada img{
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+
+}
+.banner{
+  width: 1240px;
+  max-width: 1240px;
+  height: 250px;
+  background-color: #808080;
+  margin: 20px auto;
+}
+.banner img{
+  width: 1240px;
+  display: block;
+  position:relative;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  
+}
